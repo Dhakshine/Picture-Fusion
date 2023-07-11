@@ -1,0 +1,135 @@
+body {
+  background-color: black;
+}
+.img1 {
+  position: absolute;
+  height: 320px;
+  width: 295px;
+  top: 150px;
+  left: 130px;
+  filter: grayscale(100%);
+  opacity: 65%;
+}
+.img1:hover {
+  height: 320px;
+  width: 295px;
+  top: 150px;
+  left: 130px;
+  filter: grayscale(0%);
+  opacity: 120%;
+  transition: 1.2s;
+}
+.img2 {
+  position: absolute;
+  height:480px;
+  width: 380px;
+  top: 90px;
+  left: 300px;
+  filter: grayscale(50%);
+  opacity: 50%;
+  z-index: -1;
+}
+.img2:hover {
+  position: absolute;
+  height:480px;
+  width: 380px;
+  top: 90px;
+  left: 300px;
+  opacity: 100%;
+  filter: grayscale(0%);
+  z-index: -1;
+  transition: 1.2s;
+}
+.img3 {
+  position:absolute;
+  height:250px;
+  width:250px;
+  left: 590px;
+  top: 120px;
+  filter: grayscale(100%);
+  opacity:80%;
+}
+.img3:hover {
+  position:absolute;
+  height:250px;
+  width:250px;
+  left: 590px;
+  top: 120px;
+  filter: grayscale(0%);
+  opacity:100%;
+  transition: 1.2s;
+}
+.img4 {
+  position:absolute;
+  height: 450px;
+  width: 300px;
+  top:180px;
+  left:680px;
+  z-index:-1;
+  filter: grayscale(100);
+  opacity: 60%;
+}
+.img4:hover {
+  position:absolute;
+  height: 450px;
+  width: 300px;
+  top:180px;
+  left:680px;
+  z-index:-1;
+  filter: grayscale(0);
+  opacity: 100%;
+  transition: 1.2s;
+}
+.img5 {
+  position: absolute;
+  height: 510px;
+  width: 300px;
+  left: 1050px;
+  top:40px;
+  transform: rotate(-90deg);
+  filter: grayscale(100);
+  opacity: 60%;
+}
+.img5:hover {
+  position: absolute;
+  height: 510px;
+  width: 300px;
+  top:40px;
+  left: 1050px;
+  z-index: -1;
+  transform: rotate(-90deg);
+  filter: grayscale(0);
+  opacity: 100%;
+  transition: 1.2s;
+}
+div {
+  position: absolute;
+  height: 10px;
+  width: 150px;
+  background-color: #708090
+;
+}
+.t1{
+  right: 20px;
+  top:10;
+}
+.t2 {
+  right: 190px;
+  top:10px;
+}
+.t3 {
+  right: 360px;
+  top:10px;
+}
+.b1{
+  left: 20px;
+  bottom:10px;
+}
+.b2 {
+  left: 190px;
+  bottom:10px;
+}
+.b3 {
+  left: 360px;
+  bottom:10px;
+}
