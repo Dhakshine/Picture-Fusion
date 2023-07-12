@@ -16,7 +16,6 @@ body {
   top: 150px;
   left: 130px;
   filter: grayscale(0%);
-  z-index: 1;
   opacity: 120%;
   transition: 1.2s;
 }
@@ -57,7 +56,6 @@ body {
   left: 590px;
   top: 120px;
   filter: grayscale(0%);
-  z-index: 1;
   opacity:100%;
   transition: 1.2s;
 }
@@ -102,7 +100,6 @@ body {
   z-index: -1;
   transform: rotate(-90deg);
   filter: grayscale(0);
-  z-index: 1;
   opacity: 100%;
   transition: 1.2s;
 }
